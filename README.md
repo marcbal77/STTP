@@ -17,7 +17,7 @@ Welcome to **Stick to the Plan** - a decentralized application (dApp) designed t
 
 ### How to Use
 
-1. **Visit [sticktotheplan.x](https://sticktotheplan.x)** and create an account or log in.
+1. **Visit [sticktotheplan.x](https://sticktotheplan.x)** and log in.
 2. **Create your financial plan** by adding and editing rows in the spreadsheet.
 3. **Track your net value** automatically and adjust your strategies as needed.
 4. **Plan your profit and loss scenarios** by setting sell points for your assets.

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
@@ -11,7 +12,7 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Stick to the <a>Plan</a> 
+          Stick to the <Link href="/posts/first-post">Plan!</Link>
         </h1>
 
         <p className={styles.description}>

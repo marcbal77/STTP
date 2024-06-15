@@ -21,12 +21,16 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Financial Goal Setting &rarr;</h3>
+            <h3>
+              <Link href="/goals">Financial Goal Setting</Link>
+            &rarr;</h3>
             <p>Set and prioritize financial goals with tailored plans to stay on track.</p>
           </a>
 
           <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Research Opportunities &rarr;</h3>
+            <h3> 
+              <Link href="/research">Research Opportunities</Link> 
+            &rarr;</h3> 
             <p>Use AI to gather insights and optimize your financial strategies.</p>
           </a>
 

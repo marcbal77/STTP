@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
@@ -11,17 +12,18 @@ export default function Home() {
       </Head>
 
       <main>
+          <div>
+            <h1>Welcome to Stick to the Plan</h1>
+            <Image
+            src="/sttp-logo.png"
+            alt="Stick To The Plan"
+            width={350} // Adjust the width as needed
+            height={190} // You need to specify the height as well
+            />
+          </div>
         <h1 className={styles.title}>
           Stick to the <Link href="/posts/first-post">Plan!</Link>
         </h1>
-        <div>
-          <Image
-            src="/public/sttp-logo.png"
-            alt="Stick To The Plan"
-            width={500} // Adjust the width as needed
-            height={500} // Adjust the height as needed
-          />
-        </div>
         <p className={styles.description}>
           Get started <a href="https://copilot.money/">HERE</a>
         </p>

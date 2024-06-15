@@ -14,7 +14,14 @@ export default function Home() {
         <h1 className={styles.title}>
           Stick to the <Link href="/posts/first-post">Plan!</Link>
         </h1>
-
+        <div>
+          <Image
+            src="/public/sttp-logo.png"
+            alt="Stick To The Plan"
+            width={500} // Adjust the width as needed
+            height={500} // Adjust the height as needed
+          />
+        </div>
         <p className={styles.description}>
           Get started <a href="https://copilot.money/">HERE</a>
         </p>

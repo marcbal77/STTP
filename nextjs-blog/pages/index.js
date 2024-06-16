@@ -12,15 +12,14 @@ export default function Home() {
       </Head>
 
       <main>
-          <div>
-            <h1>Welcome to Stick to the Plan</h1>
+        <div>
             <Image
-            src="/sttp-logo.png"
-            alt="Stick To The Plan"
-            width={350} // Adjust the width as needed
-            height={190} // You need to specify the height as well
+              src="/sttp-logo.png"
+              alt="Stick To The Plan"
+              width={400} // Adjust the width as needed
+              height={200} // You need to specify the height as well
             />
-          </div>
+        </div>
         <h1 className={styles.title}>
           Stick to the <Link href="/posts/first-post">Plan!</Link>
         </h1>

@@ -29,3 +29,22 @@ Only loading the code for the page you request also means that pages become isol
 ======================================
 Prefetching in Next.js
 In a production build of Next.js, whenever Link components appear in the browser’s viewport, Next.js automatically prefetches the code for the linked page in the background. By the time you click the link, the code for the destination page will already be loaded in the background, and the page transition will be near-instant!
+
+======================================
+
+Utilize a tags when accessing external pages outside of Next:
+If you need to link to an external page outside the Next.js app, just use an <a> tag without Link.
+
+======================================
+
+Next.js has built-in support for CSS (https://nextjs.org/docs/basic-features/built-in-css-support) and Sass (https://nextjs.org/docs/basic-features/built-in-css-support#sass-support).
+
+======================================
+
+Assets
+Next.js can serve static assets, like images, under the top-level public directory. Files inside public can be referenced from the root of the application similar to pages.
+
+======================================
+
+
+======================================

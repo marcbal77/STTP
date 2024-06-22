@@ -44,7 +44,16 @@ Next.js has built-in support for CSS (https://nextjs.org/docs/basic-features/bui
 Assets
 Next.js can serve static assets, like images, under the top-level public directory. Files inside public can be referenced from the root of the application similar to pages.
 
+next/image is an extension of the HTML <img> element. Next.js also has support for Image Optimization.
+
 ======================================
 
+Metadata
+<Head> is a React Component that is built into Next.js. It allows you to modify the <head> of a page.
+
+import the Head component from the next/head module.
+
+add
+import Head from 'next/head';
 
 ======================================

@@ -10,7 +10,6 @@ export default function Home() {
         <title>Stick To The Plan</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main>
         <h1 className={styles.title}>
           Stick to the <Link href="/posts/first-post">Plan!</Link>

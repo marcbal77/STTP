@@ -5,7 +5,7 @@ export default function TBD() {
   return (
     <>
       <Head>
-        <title>Goals</title>
+        <title>Research</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <h1>Research Opportunities</h1>

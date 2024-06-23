@@ -57,3 +57,12 @@ add
 import Head from 'next/head';
 
 ======================================
+
+Scripting
+
+Using the Script Component
+
+If a particular script is render-blocking and can delay page content from loading, this can significantly impact performance.
+
+`next/script` is an extension of the HTML <script> element and optimizes when additional scripts are fetched and executed.
+

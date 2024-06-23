@@ -66,3 +66,9 @@ If a particular script is render-blocking and can delay page content from loadin
 
 `next/script` is an extension of the HTML <script> element and optimizes when additional scripts are fetched and executed.
 
+======================================
+
+Layout Component
+
+Adding CSS
+Important: To use CSS Modules, the CSS file name must end with .module.css.

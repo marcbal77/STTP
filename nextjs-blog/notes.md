@@ -72,3 +72,16 @@ Layout Component
 
 Adding CSS
 Important: To use CSS Modules, the CSS file name must end with .module.css.
+
+Automatically Generates Unique Class Names
+
+CSS Modules automatically generates unique class names. As long as you use CSS Modules, you don’t have to worry about class name collisions.
+
+======================================
+
+Global Styles
+
+Note: CSS Modules are useful for component-level styles.
+
+Adding Global CSS
+In Next.js, you can add global CSS files by importing them from pages/_app.js. You cannot import global CSS anywhere else.
